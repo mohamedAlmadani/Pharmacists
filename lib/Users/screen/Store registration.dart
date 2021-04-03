@@ -1,3 +1,4 @@
+/*
 import 'package:auto_route/auto_route.dart';
 
 import 'package:ecommerce/route/custom_route.gr.dart';
@@ -215,3 +216,4 @@ class _StoreRegisterState extends State<StoreRegister> {
     );
   }
 }
+*/

@@ -7,6 +7,7 @@ class Product {
 
   String price;
   String description;
+  String imageSlider;
 
   Product(
       {
@@ -15,5 +16,6 @@ class Product {
         this.price,
         this.productName,
         this.description,
+        this.imageSlider
         });
 }

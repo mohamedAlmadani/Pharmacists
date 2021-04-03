@@ -1,19 +1,23 @@
-import 'package:ecommerce/route/custom_route.gr.dart';
+import 'package:ecommerce/Users/screen/Shops.dart';
+import 'package:ecommerce/backend/repository.dart';
 import 'package:ecommerce/utils/sextion_moceup.dart';
 import 'package:ecommerce/widget/custom_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:auto_route/auto_route.dart';
+import 'package:get/get.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
 
 
 class MainPage extends StatefulWidget {
+
   @override
   _MainPageState createState() => _MainPageState();
 }
 
 class _MainPageState extends State<MainPage> {
+
   @override
   Widget build(BuildContext context) {
     ScreenUtil.init(context,
@@ -69,7 +73,8 @@ class _MainPageState extends State<MainPage> {
           Expanded(
             child: GestureDetector(
               onTap: (){
-                context.rootNavigator.push(Routes.shops);
+                Get.to(Shops());
+              //  context.rootNavigator.push(Routes.shops);
 
 
               },
@@ -156,12 +161,13 @@ class _MainPageState extends State<MainPage> {
           )
         ],
       ),
-      floatingActionButton: FloatingActionButton(
+
+        floatingActionButton: FloatingActionButton(
         onPressed: (){
-          context.rootNavigator.push(Routes.addAd);
+        //  context.rootNavigator.push(Routes.addAd);
 
         },
-        child: Icon(Icons.add),
+        child:  Icon(Icons.add),
         backgroundColor: Color(0xff88A53B),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

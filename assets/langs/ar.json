@@ -4,7 +4,7 @@
   "sign up": "التسجيل",
   "new_user": "مستخدم جديد",
   "new_user_sub": "يمكنك تسجيل عضوية مجاناً",
-"stores": "المتاجر",
+"stores": "صيدليات",
   "customer": "العملاء",
   "buttonTitle": "English",
   "store registration": "تسجيل المتاجر",
@@ -41,6 +41,8 @@
   "automatic reposting": "اعادة نشر تلقائي",
   "add": "اضافة",
   "language": "اللغة",
-
-  "": ""
+  "login": "تسجيل دخول",
+  "descriotion": "تفاصيل المنتج",
+  "send": "ارسل",
+  "add Product": "اضافة المنتجات"
 }

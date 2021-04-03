@@ -4,7 +4,7 @@
   "sign up":"Sign up",
   "new_user": "New User",
   "new_user_sub": "You can register for free membership",
-  "stores": "Stores",
+  "stores": "Pharmacies",
   "customer": "Customer",
   "buttonTitle": "العربية",
   "store registration": "Store registration",
@@ -40,7 +40,11 @@
   "allow non-hassle": "Allow non-hassle",
   "automatic reposting": "Automatic reposting",
   "add": "Add",
-  "language": "Language"
+  "language": "Language",
+  "login": "login",
+  "descriotion": "Product details",
+  "send": "send",
+  "add Product": "Add Product"
 
 
 }
